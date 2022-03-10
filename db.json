@@ -1,0 +1,40 @@
+{
+  "posts": [
+    {
+      "id": 2,
+      "firstName": "Kevin",
+      "lastName": "R",
+      "email": "kevin@gmail.com",
+      "mobileNumber": 8073060254,
+      "salary": 36500
+    },
+    {
+      "id": 5,
+      "firstName": "Rakesh",
+      "lastName": "adiga",
+      "email": "rocky@yopmail.com",
+      "mobileNumber": 8073652144,
+      "salary": 444444444
+    },
+    {
+      "id": 6,
+      "firstName": "Krishna",
+      "lastName": "A",
+      "email": "krish@yopmail.com",
+      "mobileNumber": 806324541,
+      "salary": 5000
+    },
+    {
+      "id": 7,
+      "firstName": "dd",
+      "lastName": "dd",
+      "email": "dd",
+      "mobileNumber": 11,
+      "salary": 111
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}
