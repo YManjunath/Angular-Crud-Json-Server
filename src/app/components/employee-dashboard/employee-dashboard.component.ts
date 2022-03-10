@@ -15,14 +15,14 @@ export class EmployeeDashboardComponent implements OnInit {
   employeeModel: empModel = new empModel();
   addBtn: boolean = false;
   editBtn: boolean = false;
-  // employeeModel: empModel[] = [];
-  constructor(private formBuilder : FormBuilder, private api: ApiService) { }
+  constructor(
+    private formBuilder : FormBuilder, private api: ApiService
+    ) { }
 
 
   ngOnInit(): void {
     
     this.getEmpData();
-
     this.formValue = this.formBuilder.group({
       firstName:[''],
       lastName:[''],
@@ -74,7 +74,6 @@ export class EmployeeDashboardComponent implements OnInit {
   onEdit(item: any){
     this.addBtn = false;
     this.editBtn = true;
-    // this.formValue.patchValue(item);
     this.employeeModel.id = item.id;
     this.formValue.controls['firstName'].setValue(item.firstName);
     this.formValue.controls['lastName'].setValue(item.lastName);
